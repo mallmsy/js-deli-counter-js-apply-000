@@ -18,7 +18,7 @@ function currentLine(line) {
     var finalString = ''
     for (let i = 0; i < line.length; i++) {
      var placeInLine = i + 1 + '. '
-     var fullLine = placeInLine + line[i] // + ', '
+     var fullLine = placeInLine + line[i] + ' '
      finalString = finalString + fullLine 
     }
      return ('The line is currently: ' + finalString)
