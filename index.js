@@ -21,6 +21,6 @@ function currentLine(line) {
      var fullLine = placeInLine + line[i] + ' '
      finalString = finalString + fullLine 
     }
-     return ('The line is currently: ' + finalString)
+     return ('The line is currently: ' + finalString.slice(0, -1))
   }
 }
